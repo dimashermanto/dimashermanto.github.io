@@ -33,7 +33,7 @@
     background-image: url(img/jumbotron-background.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 790px;
+    height: 660px !important;
     text-align: center;
     margin-top: -95px !important;
     position: relative;
