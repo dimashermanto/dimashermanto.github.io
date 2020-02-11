@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.title{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.description{
+    margin-top: 27px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* navbar */
+.navbar{
+    font-weight: 300;
+    text-shadow: 1px 1px gray;
+}
+
+.navbar-brand{
+    margin-left: 60px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    margin-right: 120px;
+}
+
+.nav-item{
+    font-size: 17px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    transition: 0.5;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+    text-shadow: none;
+    
+}
+
+
+/* main part */
+.main-box{
+    width: 800px;
+    height: 800px;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.main-box .sample-images{
+    flex-direction: row;
+}
+
+.main-box .sample-images img{
+    width: 120px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: 10px 11px 12px -6px rgba(163,163,163,1);
+
+}
+
+.main-box .sample-image-title{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 200;
+}
+
+
+/* .utility-button{
+    height: 40px;
+    margin-top: 60px;
+    flex-direction: row;
+}
+
+.utility-button h3{
+    font-weight: 500;
+}
+
+.utility-button .btn{
+    margin-left: 20px;
+    border-style: none;
+    background-color: #c7c7c7;
+    transition: 0.5;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.utility-button .btn:hover{
+    background-color: white;
+    color: gray;
+    transform: scale(1.1);
+    
+}
+
+.utility-button h3{
+    font-weight: 200;
+    font-style: italic;
+} */
+
+.diagnose{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 500px;
+    padding: 30px;
+}
+
+.diagnose h4, h5{
+    font-weight: 200;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: white;
+    height: 200px;
+    margin-top: 90px;
+}
+
+.footer h3{
+    font-weight: 200;
+    font-style: italic;
+}
+
+.footer .logo1, .logo2, .logo3{
+    width: 50px;
+    margin: 30px;
+}
+

@@ -9,6 +9,23 @@
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
     font-style: italic;
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: solid 3px blue;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
 }
 
 
@@ -104,6 +121,10 @@
     margin-top: 90px;
 }
 
+.info-panel .skill-title{
+    margin-top: 25px;
+}
+
 
 
 
@@ -178,42 +199,116 @@ footer .logos img {
 
 
 
+/* project panel */
+.project-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: 60px;
+    height: 350px;
+    background-color: white;
+    padding: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.project-panel img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.project-panel h3 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.project-panel h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+.project-panel .skill-title{
+    margin-top: 25px;
+}
+
+.project-panel .project-panel-item #pneumonia-diagnoser-link{
+    color: black;
+    text-decoration: none;
+}
 
 
-/* responsive on desktop only */
-@media (min-width: 992px) {
 
-    .navbar-brand,
-    .nav-link {
-        color: white !important;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+
+
+@media (max-width: 768px) {
+    .navbar{
+        display: none;
     }
 
-    .nav-link {
-        text-transform: uppercase;
-        margin-right: 25px;
-    }
-
-    .nav-link:hover::after {
-        content: '';
-        display: block;
-        border-bottom: solid 3px blue;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 5px;
-        margin-bottom: -8px;
-    }
-
-    .jumbotron {
-        margin-top: -75px;
-        height: 640px;
-    }
 
     .jumbotron .display-4 {
-        font-size: 55px;
+        font-size: 35px;
+        margin-top: 250px;
+    }
+
+    .info-panel{
+        height: 780px;
+    }
+
+
+    .working-space img{
+        display: none;
+    }
+
+    .working-space h2{
+        margin-top: -20px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .working-space p{
+        font-size: 30px;
+        text-align: center;
     }
 
     .testimony h5 {
         font-size: 27px;
     }
+
+    .project-panel{
+        height: 500px;
+    }
+
+}
+
+
+
+@media (max-width: 425px){
+    .jumbotron .display-4{
+        font-size: 30px;
+        margin-top: 280px;
+    }
+
+    .info-panel{
+        height: 670px;
+    }
+
+    .info-panel img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .info-panel h4{
+        font-size: 17px;
+        margin-top: 80px;
+    }
+
+
 }
