@@ -29,21 +29,6 @@
 }
 
 
-/* utility button*/
-.utility-button {
-    text-transform: uppercase;
-    border-radius: 40px;
-    border-style: none;
-    background-color: grey;
-}
-
-.utility-button:hover {
-    transform: scale(1.1);
-    transition: 0.6s;
-    background-color: white;
-    color: grey;
-}
-
 
 /* Jumbotron */
 .jumbotron {
@@ -243,6 +228,10 @@ footer .logos img {
     text-decoration: none;
 }
 
+.project-panel .project-panel-item #pneumonia-diagnoser-link:hover{
+    text-shadow: 5px 3px 8px black;
+    transition: 0.3s;
+}
 
 
 
@@ -251,7 +240,6 @@ footer .logos img {
     .navbar{
         display: none;
     }
-
 
     .jumbotron .display-4 {
         font-size: 35px;
@@ -268,7 +256,7 @@ footer .logos img {
     }
 
     .working-space h2{
-        margin-top: -20px;
+        margin-top: -30px;
         font-size: 50px;
         text-align: center;
     }
@@ -291,9 +279,14 @@ footer .logos img {
 
 
 @media (max-width: 425px){
+    
+    .jumbotron{
+        height: 570px !important;
+    }
+    
     .jumbotron .display-4{
         font-size: 30px;
-        margin-top: 280px;
+        margin-top: 260px;
     }
 
     .info-panel{
@@ -310,6 +303,40 @@ footer .logos img {
         margin-top: 80px;
     }
 
+    .working-space h2{
+        margin-top: -80px;
+        font-size: 30px;
+    }
+
+    .working-space p{
+        font-size: 20px;
+    }
+
+    .project-panel .skill-title h3{
+        font-size: 20px;
+    }
+
+    .project-panel-item h4{
+        font-size: 15px;
+        margin-top: 70px;
+    }
+
+    .project-panel-item img{
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    .footer h4{
+        font-size: 25px;
+    }
+
+    .footer img{
+        width: 20px;
+        height: 20px;
+    }
 
 }
-
