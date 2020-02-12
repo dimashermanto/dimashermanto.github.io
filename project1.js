@@ -2,8 +2,8 @@ var scrollreveal = ScrollReveal();
 
 scrollreveal.reveal('.jumbotron-content', {
     delay: 300,
-    origin: 'bottom',
-    distance: '70px',
+    origin: 'top',
+    distance: '50px',
     duration: 1500,
     reset: true
 });
@@ -19,15 +19,23 @@ scrollreveal.reveal('.info-panel', {
 scrollreveal.reveal('.working-space', {
     delay: 300,
     reset: true,
-    origin: 'right',
-    distance: '60px',
+    origin: 'top',
+    distance: '20px',
+    duration: 1000
+});
+
+scrollreveal.reveal('.project-panel-item', {
+    delay: 300,
+    reset: true,
+    origin: 'bottom',
+    distance: '20px',
     duration: 1000
 });
 
 scrollreveal.reveal('.logo', {
     delay: 300,
     origin: 'bottom',
-    distance: '50px',
+    distance: '40px',
     reset: true,
     duration: 1000
 });
