@@ -81,7 +81,7 @@ class App extends React.Component {
                     };
                 });
             }, (error) => {
-                document.getElementById("reject-webcam-message-panel").style.display = "block";
+                document.getElementById("no-webcam-message-panel").style.display = "block";
                 console.log("Couldn't start the webcam")
                 console.error(error)
             });
