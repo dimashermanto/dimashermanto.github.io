@@ -290,8 +290,7 @@ footer .logos img {
 }
 
 
-
-@media (max-width: 425px){
+@media (max-width: 414px){
     
     .jumbotron{
         height: 570px !important;
@@ -318,11 +317,11 @@ footer .logos img {
 
     .working-space h2{
         margin-top: -80px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .working-space p{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .project-panel .skill-title h3{
@@ -331,7 +330,7 @@ footer .logos img {
 
     .project-panel-item h4{
         font-size: 15px;
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
     .project-panel-item img{
@@ -340,7 +339,7 @@ footer .logos img {
         margin-right: 20px;
         margin-bottom: 20px;
         margin-top: 70px;
-        margin-left: 70px;
+        margin-left: 35px;
     }
 
     .footer h4{
@@ -352,4 +351,166 @@ footer .logos img {
         height: 20px;
     }
 
+}
+
+
+@media (max-width:375px){
+    
+    .info-panel{
+        height: 600px;
+    }
+
+    .info-panel img{
+        width: 40px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .info-panel h4{
+        font-size: 17px;
+        margin-top: 55px;
+    }
+
+    .working-space h2{
+        margin-top: -80px;
+        font-size: 25px;
+    }
+
+    .working-space p{
+        font-size: 15px;
+    }
+    
+    .project-panel{
+        height: 400px;
+    }
+    
+    .project-panel-item img{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .project-panel-item h4{
+        font-size: 13px;
+        margin-top: 55px;
+    }
+
+}
+
+
+@media (max-width: 360px){
+    .jumbotron .display-4{
+        font-size: 25px;
+    }
+
+    .info-panel{
+        height: 630px;
+    }
+
+    .info-panel .skill-title h3{
+        font-size: 20px;
+    }
+
+    .info-panel img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .info-panel h4{
+        font-size: 13px;
+    }
+
+    .working-space h2{
+        margin-top: -80px;
+        font-size: 25px;
+    }
+
+    .working-space p{
+        font-size: 15px;
+    }
+
+    .project-panel{
+        height: 450px;
+    }
+
+    .project-panel .skill-title h3{
+        font-size: 20px;
+    }
+
+    .project-panel-item h4{
+        font-size: 13px;
+        margin-top: 76px;
+    }
+
+    .project-panel-item img{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .jumbotron .display-4{
+        font-size: 25px;
+    }
+
+    .info-panel{
+        height: 460px;
+    }
+
+    .info-panel .skill-title h3{
+        font-size: 20px;
+    }
+
+    .info-panel img{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .info-panel h4{
+        font-size: 13px;
+        margin-top: 30px;
+        
+    }
+
+    .working-space h2{
+        margin-top: -80px;
+        font-size: 25px;
+    }
+
+    .working-space p{
+        font-size: 15px;
+    }
+
+    .project-panel{
+        height: 340px;
+    }
+
+    .project-panel .skill-title h3{
+        font-size: 20px;
+    }
+
+    .project-panel-item h4{
+        font-size: 11px;
+        margin-top: 37px;
+    }
+
+    .project-panel-item img{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
 }
